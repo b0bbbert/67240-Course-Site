@@ -4,6 +4,38 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
+.bottom {
+  bottom: 0%;
+  color: white;
+  left: 0%;
+  margin-left: 8%;
+  margin-bottom: 4%;
+  position: absolute;
+}
+
+.chat {
+  background-color: #00A4FA;
+  border: none;
+  color: white;
+  font-size: auto;
+  text-transform: uppercase;
+}
+
+.client-photo {
+  height: 100%;
+  object-fit: cover;
+  transform: translate(5%,0);
+  width: 100%;
+}
+
+#clientpic-container {
+  position: absolute;
+  left: 52%;
+  top: 9%;
+  width: 450px;
+  height: 86%;
+}
+
 #gallery-container {
 	margin-top: 2em;
   width: 925px;
@@ -48,6 +80,24 @@ body {
 
 .title-blue {
   color: #00A4FA;
+}
+
+.title-clientpic {
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.title-orange {
+  color: #DB7600;
+}
+
+.top {
+  left: 0%;
+  margin-left: 8%;
+  margin-top: 6%;
+  position: absolute;
+  top: 0%;
 }
 
 .sub-head {
